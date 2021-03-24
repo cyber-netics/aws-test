@@ -13,7 +13,6 @@ import {
   IDispatchProps,
   IStateProps,
   IReduxState,
-  IUserObj,
 } from "./types";
 
 class MainPage extends Component<IProps, IState> {
@@ -46,9 +45,7 @@ class MainPage extends Component<IProps, IState> {
           Submit
         </button>
         <div>
-          {this.props.users.map((user: IUserObj, i: number) => {
-            return <div key={i}>{user.name}</div>;
-          })}
+          <h1>Helloo</h1>
         </div>
       </div>
     );
