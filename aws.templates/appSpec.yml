@@ -6,4 +6,4 @@ Resources:
         TaskDefinition: "arn:aws:ecs:$AWS_DEFAULT_REGION:$AWS_ACCOUNT_ID:task-definition/$TASK_DEF_NAME:88"
         LoadBalancerInfo:
           ContainerName: "nginx"
-          ContainerPort: 80
+          ContainerPort: "80"
